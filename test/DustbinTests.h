@@ -3,8 +3,7 @@
 
 class Tester {
 public:
-   Tester()
-   {
+   Tester() {
       throw std::logic_error("Tester class in not implemented yet!");
    }
 };

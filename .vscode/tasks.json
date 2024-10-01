@@ -12,9 +12,9 @@
                 "${workspaceFolder}\\src\\dustbin\\*.cpp",
                 "${workspaceFolder}\\src\\exceptions\\*.cpp",
                 "${workspaceFolder}\\src\\garbage\\*.cpp",
-                "-I${workspaceFolder}\\src\\dustbin\\",
-                "-I${workspaceFolder}\\src\\exceptions\\",
-                "-I${workspaceFolder}\\src\\garbage\\",
+                "-I${workspaceFolder}\\include\\dustbin\\",
+                "-I${workspaceFolder}\\include\\exceptions\\",
+                "-I${workspaceFolder}\\include\\garbage\\",
                 "-I${workspaceFolder}\\test\\",
                   "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
