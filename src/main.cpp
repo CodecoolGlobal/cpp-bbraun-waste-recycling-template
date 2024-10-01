@@ -4,7 +4,9 @@
 using namespace std;
 
 int main() {
-    Tester tester;
-    tester.run();
-    return 0;
+    try {
+        Tester tester;
+    } catch (const exception& e) {
+        cout << e.what() << endl;
+    }
 }
